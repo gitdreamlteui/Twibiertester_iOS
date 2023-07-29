@@ -87,7 +87,7 @@
       <true/>
     </dict>
     <key>CFBundleDisplayName</key>
-    <string>X</string>
+    <string>Twibiertester</string>
     <key>UIAppFonts-macos</key>
     <array>
       <string>Chirp/Chirp-Bold.otf</string>
