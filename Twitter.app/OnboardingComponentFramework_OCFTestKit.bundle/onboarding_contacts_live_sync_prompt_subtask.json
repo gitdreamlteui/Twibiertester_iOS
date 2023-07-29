@@ -1,0 +1,40 @@
+{
+   "primary_text":"Connect your address book.",
+   "detail_text":{
+      "text":"This is detail text.",
+      "entities":[
+         {
+            "from_index":8,
+            "to_index":14,
+            "navigation_link":{
+                  "link_id":"detail_link",
+                  "link_type":"deep_link",
+                  "url":"http://www.twitter.com/abc"
+            }
+         }
+      ]
+   },
+   "skip_link":{
+      "label":"Not now",
+      "link_id":"skip_link",
+      "link_type":"abort"
+   },
+   "next_link":{
+      "label":"Sync contacts",
+      "link_id":"next_link",
+      "link_type":"subtask",
+      "subtask_id":"contacts_users_list_id"
+   },
+   "one_step_prompt_configuration":{
+      "primary_account_subtitle_text": { "text": "subtitle1" },
+      "secondary_account_subtitle_text": { "text": "subtitle2" },
+
+      "primary_account_continue_label": { "text": "continue1" },
+      "secondary_account_continue_label": { "text": "continue2" },
+
+      "prompt_title": { "text": "title" },
+      "prompt_message": { "text": "message" },
+      "prompt_granted_label": { "text": "granted" },
+      "prompt_denied_label": { "text": "denied" }
+   }
+}

@@ -1,0 +1,79 @@
+{
+   "primary_text":{"text":"What should we call you?"},
+   "secondary_text":{"text":"Your @username is unique. You can always change it later."},
+   "hint":"Username",
+   "detail_texts":[
+        {
+           "text": "@joeschmo, @janeschmo\n\nShow more",
+           "entities": [ { "from_index":0, "to_index":9,
+                           "navigation_link": {
+                              "link_id":"suggestion1",
+                              "link_type":"subtask",
+                              "label":"joeschmo",
+                              "subtask_id":"subtaskUsername",
+                              "subtask_navigation_context":{"action":"set_username"}
+                           }
+                         },
+                         { "from_index":11, "to_index":21,
+                           "navigation_link": {
+                              "link_id":"suggestion2",
+                              "link_type":"subtask",
+                              "label":"janeschmo",
+                              "subtask_id":"subtaskUsername",
+                              "subtask_navigation_context":{"action":"set_username"}
+                           }
+                         },
+                         { "from_index":23, "to_index":32,
+                           "navigation_link": {
+                              "link_id":"showmore",
+                              "link_type":"subtask",
+                              "subtask_id":"subtaskUsername",
+                              "subtask_navigation_context":{"action":"next_detail_text"}
+                           }
+                         }
+                       ]
+        },
+        {
+           "text": "@markdark, @freddyfin\n\nShow more",
+           "entities": [ { "from_index":0, "to_index":9,
+                           "navigation_link": {
+                              "link_id":"suggestion1",
+                              "link_type":"subtask",
+                              "label":"markdark",
+                              "subtask_id":"subtaskUsername",
+                              "subtask_navigation_context":{"action":"set_username"}
+                           }
+                         },
+                         { "from_index":11, "to_index":21,
+                           "navigation_link": {
+                              "link_id":"suggestion2",
+                              "link_type":"subtask",
+                              "label":"freddyfin",
+                              "subtask_id":"subtaskUsername",
+                              "subtask_navigation_context":{"action":"set_username"}
+                           }
+                         },
+                         { "from_index":23, "to_index":32,
+                           "navigation_link": {
+                              "link_id":"showmore",
+                              "link_type":"subtask",
+                              "subtask_id":"subtaskUsername",
+                              "subtask_navigation_context":{"action":"next_detail_text"}
+                           }
+                         }
+                       ]
+        }
+    ],
+    "skip_link":{
+      "label":"Not now",
+      "link_id":"skip_link",
+      "link_type":"deep_link",
+      "url":"twitter://deep_link"
+   },
+   "next_link":{
+      "label":"Next",
+      "link_id":"next_link",
+      "link_type":"subtask",
+      "subtask_id":"12345"
+   }
+}

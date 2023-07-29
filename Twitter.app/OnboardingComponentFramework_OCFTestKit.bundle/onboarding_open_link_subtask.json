@@ -1,0 +1,7 @@
+{
+    "link": {
+        "link_id": "link",
+        "link_type": "deep_link",
+        "url": "twitter://find_friends"
+    }
+}

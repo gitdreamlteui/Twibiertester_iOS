@@ -1,0 +1,151 @@
+{
+    "granted_link": {
+        "link_type": "task",
+        "link_id": "next_link",
+        "label": "Don't Miss out"
+    },
+    "denied_link": {
+        "link_type": "task",
+        "link_id": "skip_link",
+        "label": "Skipperoo"
+    },
+    "previously_denied_reprompt_behavior": "always",
+    "style": "full_cover",
+    "component_collection": {
+        "header_components": [{
+            "value_type": "image",
+            "value_data": {
+                "image_data": {
+                    "image": {
+                        "image_info": {
+                            "url": "https://ton.twimg.com/onboarding/nux_notifications/ios-v1.png",
+                            "width": 250,
+                            "height": 250,
+                            "alt_text": "notification_clock"
+                        }
+                    },
+                    "image_type": "full_bleed_top"
+                }
+            }
+        },
+            {
+                "value_type": "static_text",
+                "value_data": {
+                    "static_text_data": {
+                        "primary_text": {
+                            "text": "Don't Miss out",
+                            "entities": []
+                        },
+                        "style": "header_title"
+                    }
+                }
+            },
+            {
+                "value_type": "static_text",
+                "value_data": {
+                    "static_text_data": {
+                        "primary_text": {
+                            "text": "With notifications, you can keep up with the conversation - as it happens.",
+                            "entities": []
+                        },
+                        "style": "header_subtitle"
+                    }
+                }
+            },
+            {
+                "value_type": "info_item",
+                "value_data": {
+                    "info_item_data": {
+                        "primary_text": {
+                            "text": "Know when you're mentioned.",
+                            "entities": [],
+                            "size": "large"
+                        },
+                        "icon": {
+                            "icon": "at"
+                        },
+                        "style": "icon"
+                    }
+                }
+            },
+            {
+                "value_type": "info_item",
+                "value_data": {
+                    "info_item_data": {
+                        "primary_text": {
+                            "text": "See what's buzzy",
+                            "entities": [],
+                            "size": "large"
+                        },
+                        "icon": {
+                            "icon": "sparkle"
+                        },
+                        "style": "icon"
+                    }
+                }
+            },
+            {
+                "value_type": "info_item",
+                "value_data": {
+                    "info_item_data": {
+                        "primary_text": {
+                            "text": "Fine-tune whatever you want",
+                            "entities": [],
+                            "size": "large"
+                        },
+                        "icon": {
+                            "icon": "safety_mode_stroke"
+                        },
+                        "style": "icon"
+                    }
+                }
+            }
+        ],
+        "footer_components": [{
+            "value_type": "button",
+            "value_identifier": "next",
+            "value_data": {
+                "button_data": {
+                    "link": {
+                        "link_type": "task",
+                        "link_id": "next_link",
+                        "label": "Let's GO"
+                    },
+                    "button_label": {
+                        "text": "Set Preferences",
+                        "entities": []
+                    },
+                    "button_appearance": {
+                        "style": "primary",
+                        "preferred_size": "large"
+                    }
+                }
+            }
+        },
+            {
+                "value_type": "button",
+                "value_identifier": "skip",
+                "value_data": {
+                    "button_data": {
+                        "link": {
+                            "link_type": "task",
+                            "link_id": "skip_link",
+                            "label": "I'll pass"
+                        },
+                        "button_label": {
+                            "text": "Skip for now",
+                            "entities": []
+                        },
+                        "button_appearance": {
+                            "style": "secondary",
+                            "preferred_size": "large"
+                        }
+                    }
+                }
+            }
+        ],
+        "primary_next_identifier": "next",
+        "primary_skip_identifier": "skip",
+        "content_vertical_alignment": "top"
+    }
+}

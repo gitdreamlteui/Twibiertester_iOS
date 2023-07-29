@@ -1,0 +1,50 @@
+{
+    "primary_text":{"text":"What are you interested in?"},
+    "secondary_text":{"text":"Select an existing choice or type to add your own"},
+    "custom_interests_header":"Custom Interests",
+    "hint":"Add your unique interests",
+    "selected_items":[ "817054929869152256" ],
+    "groups":[
+      {
+        "header":"Entertainment",
+        "items":[
+            {
+                "id":"817054929869152256",
+                "name":"Humor"
+            },
+            {
+                "id":"817054929869152258",
+                "name":"Balloon Fighting"
+            }
+        ]
+      },
+      {
+        "header":"Sports",
+        "items":[
+            {
+                "id":"817054929869152257",
+                "name":"Hockey"
+            },
+            {
+                "id":"817054929869152267",
+                "name":"Tennis"
+            },
+            {
+                "id":"817054929869152277",
+                "name":"Bowling"
+            }
+        ]
+      }
+    ],
+    "skip_link":{
+        "label":"Help",
+        "link_id":"skip_link",
+        "link_type":"deep_link_and_abort",
+        "url":"http://help.twitter.com"
+    },
+    "next_link":{
+        "label":"Done",
+        "link_id":"next_link",
+        "link_type":"finish"
+    }
+}

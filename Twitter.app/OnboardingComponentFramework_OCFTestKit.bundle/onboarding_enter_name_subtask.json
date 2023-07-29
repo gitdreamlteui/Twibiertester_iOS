@@ -1,0 +1,17 @@
+{
+   "primary_text":{"text":"Hi. What's your name?"},
+   "secondary_text":{"text":"Up to 20 characters"},
+   "hint":"Full name",
+   "skip_link":{
+      "label":"Not now",
+      "link_id":"skip_link",
+      "link_type":"deep_link",
+      "url":"twitter://deep_link"
+   },
+   "next_link":{
+      "label":"Next",
+      "link_id":"next_link",
+      "link_type":"subtask",
+      "subtask_id":"12345"
+   }
+}

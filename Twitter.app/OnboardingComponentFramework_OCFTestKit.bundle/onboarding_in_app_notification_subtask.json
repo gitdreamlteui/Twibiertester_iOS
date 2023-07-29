@@ -1,0 +1,10 @@
+{
+    "message": {
+        "text":"Thank you"
+    },
+    "wait_time_ms": 1000,
+    "next_link": {
+        "link_id": "next_link",
+        "link_type": "task"
+    }
+}

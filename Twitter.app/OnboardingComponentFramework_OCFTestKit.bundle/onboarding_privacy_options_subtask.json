@@ -1,0 +1,15 @@
+{
+    "primary_text":"Insecurity options",
+    "secondary_text":"Insecurity",
+    "discoverable_by_email":"1",
+    "discoverable_by_email_label":"Stalk me by my email address",
+    "discoverable_by_email_detail_text":{ "text":"People who have your email address will be able to stalk you on Twitter." },
+    "discoverable_by_phone":"1",
+    "discoverable_by_phone_label":"Stalk me by my phone number",
+    "discoverable_by_phone_detail_text":{ "text":"People who have your phone number will be able to stalk you on Twitter." },
+    "next_link":{
+        "label": "Bye",
+        "link_id": "next_link",
+        "link_type":"finish"
+    }
+}

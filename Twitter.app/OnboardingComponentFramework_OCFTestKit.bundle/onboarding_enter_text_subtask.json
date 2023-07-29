@@ -1,0 +1,24 @@
+{
+    "primary_text" : {
+        "text" : "Describe yourself",
+        "entities" : [ ]
+    },
+    "secondary_text" : {
+        "text" : "What makes you special? Don't think too hard, just have fun with it.",
+        "entities" : [ ]
+    },
+    "hint_text" : "Your bio",
+    "max_length" : 160,
+    "multiline" : true,
+    "keyboard_type" : "text",
+    "next_link" : {
+        "link_type" : "task",
+        "link_id" : "next_link",
+        "label" : "Next"
+    },
+    "skip_link" : {
+        "link_type" : "task",
+        "link_id" : "skip_link",
+        "label" : "Not now"
+    }
+}

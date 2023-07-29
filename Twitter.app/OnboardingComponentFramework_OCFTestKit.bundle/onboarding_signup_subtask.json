@@ -1,0 +1,27 @@
+{
+    "primary_text": "Title",
+    "secondary_text": "Subtitle",
+    "name_hint": "NameHint",
+    "phone_hint": "PhoneHint",
+    "email_hint": "EmailHint",
+    "phone_email_hint": "PhoneOrEmailHint",
+    "use_phone_text": "UsePhone",
+    "use_email_text": "UseEmail",
+    "birthday_hint": "BirthdayHint",
+    "next_link": {
+        "label": "NextLinkLabel",
+        "link_id": "link_id",
+        "link_type": "subtask",
+        "subtask_id": "12345"
+    },
+    "js_instrumentation": {
+        "url": "http://twitter.com/instrumentation"
+    },
+    "email_next_link": {
+        "label": "EmailNextLinkLabel",
+        "link_id": "link_id",
+        "link_type": "subtask",
+        "subtask_id": "123456"
+    },
+    "allowed_identifiers": "email_only"
+}

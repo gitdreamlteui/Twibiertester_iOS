@@ -1,0 +1,14 @@
+{
+    "primary_text": {"text":"What? No Tweets Yet?"},
+    "secondary_text": {"text":"This empty timeline won't be around for long.  Start following people and you'll see Tweets show up here."},
+    "cta_link": {
+        "label": "Find people to follow",
+        "link_id": "next_link",
+        "link_type": "deep_link",
+        "url": "twitter://find_friends"
+    },
+    "next_link": {
+        "link_id": "next_link",
+        "link_type": "task"
+    }
+}

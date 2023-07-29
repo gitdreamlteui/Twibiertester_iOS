@@ -1,0 +1,14 @@
+{
+    "sources": [{
+                "media_data_reference":{
+                    "key": "selected_image",
+                "subtask_id":"select_image_123"},
+
+                "style" : "avatar"
+    }],
+    "next_link": {
+        "label":"Next",
+        "link_id": "next_link",
+        "link_type": "task"
+    }
+}

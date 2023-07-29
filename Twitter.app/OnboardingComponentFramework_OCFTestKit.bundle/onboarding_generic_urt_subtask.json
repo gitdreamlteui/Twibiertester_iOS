@@ -1,0 +1,59 @@
+{
+    "header": {
+        "primary_text" : { "text": "TestTitle", "entities": [] }
+    },
+    "next_link": {
+        "label":"Next",
+        "link_id": "next_link",
+        "link_type": "task"
+    },
+    "navigation_link_options": {
+        "count_subtask_data_reference": {
+            "key": "topic_follow_count",
+            "subtask_id": "some.subtask.id"
+        },
+        "min_enable_count": 10
+    },
+    "detail_rich_text_options": {
+        "count_subtask_data_reference": {
+            "key": "topic_follow_count",
+            "subtask_id": "some.subtask.id"
+        },
+        "label_conditional_text": [
+            {
+                "text": {
+                    "entities": [
+                        {
+                            "from_index": 0,
+                            "subtask_data_reference": {
+                                "key": "topic_follow_count",
+                                "subtask_id": "some.subtask.id"
+                            },
+                            "to_index": 0
+                        }
+                    ],
+                    "text": " of 10 selected"
+                },
+                "threshold": 0
+            },
+            {
+                "text": {
+                    "entities": [],
+                    "text": "Great work \ud83c\udf89"
+                },
+                "threshold": 10
+            }
+        ]
+    },
+    "graphql_timeline_query": {
+       "timeline_key": "TestKey",
+       "timeline_context": "TestContext"
+    },
+    "scribe_config": {
+       "page": "test_page",
+       "section": "test_section",
+       "component": "test_component",
+       "element": "test_element"
+    },
+    "timeline_source": "TestSource"
+}

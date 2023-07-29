@@ -1,0 +1,39 @@
+{
+    "header":{
+        "primary_text":{
+           "text":"Header Primary",
+           "entities":[
+           ]
+        },
+        "secondary_text":{
+           "text":"Secondary Primary",
+           "entities":[
+           ]
+        }
+    },
+    "detail_text": {
+       "text": "This is optional detail text.",
+       "entities": []
+    },
+    "style": "interactive",
+    "extension_endpoint": "/apiendpoint",
+    "extension_polling_interval_ms": 1000,
+    "spinner_message": {
+        "text":"Please wait..."
+    },
+    "wait_time_ms": 3000,
+    "max_extension_time_ms": 5000,
+    "extension_condition": { "subtask_id":"abcde", "key":"is_ready" },
+    "next_link": {
+        "link_id": "next_link",
+        "link_type": "task"
+    },
+    "extension_timeout_link": {
+        "link_id": "extension_timeout_link",
+        "link_type": "task"
+    },
+    "cancel_link": {
+        "link_id": "cancel_link",
+        "link_type": "task"
+    }
+}

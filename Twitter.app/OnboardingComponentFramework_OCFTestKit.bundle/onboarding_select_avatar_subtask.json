@@ -1,0 +1,20 @@
+{
+    "primary_text" : {
+        "text" : "Pick a profile picture",
+        "entities" : [ ]
+    },
+    "secondary_text" : {
+        "text" : "Have a favorite selfie? Upload it now.",
+        "entities" : [ ]
+    },
+    "next_link" : {
+        "link_type" : "task",
+        "link_id" : "next_link",
+        "label" : "Next"
+    },
+    "skip_link" : {
+        "link_type" : "task",
+        "link_id" : "skip_link",
+        "label" : "Not now"
+    }
+}

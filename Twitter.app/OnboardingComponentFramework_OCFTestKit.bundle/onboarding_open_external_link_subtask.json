@@ -1,0 +1,13 @@
+{
+    "external_link_url": "https://twitter.com",
+    "next_link": {
+        "link_id": "next_link",
+        "label": "next",
+        "link_type": "task"
+    },
+    "fail_link": {
+        "link_id": "fail_link",
+        "link_type": "subtask",
+        "subtask_id": "signUpSubtaskID"
+    }
+}

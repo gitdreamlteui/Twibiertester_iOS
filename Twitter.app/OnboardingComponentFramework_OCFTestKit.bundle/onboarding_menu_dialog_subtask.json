@@ -1,0 +1,29 @@
+{
+    "primary_text":{"text":"Menu text"},
+    "primary_action_links":[
+        {
+            "label":"action1",
+            "link_id":"link1",
+            "link_type":"subtask",
+            "subtask_id":"11111"
+        },
+        {
+            "label":"action2",
+            "link_id":"link2",
+            "link_type":"subtask",
+            "subtask_id":"22222"
+        },
+        {
+            "label":"action3",
+            "link_id":"link3",
+            "link_type":"subtask",
+            "subtask_id":"33333"
+        }
+    ],
+    "cancel_link":{
+        "label":"Cancel",
+        "link_id":"cancel_link",
+        "link_type":"deep_link",
+        "url":"twitter://deep_link"
+    }
+}

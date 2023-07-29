@@ -1,0 +1,95 @@
+{
+   "primary_text":{"text":"Make your timeline yours."},
+   "secondary_text":{"text":"Follow some of the accounts below and you’ll see what they share in your timeline."},
+   "groups":[{
+       "header":"Trending",
+       "items":[
+          {
+             "user_id":12345,
+             "welcome_flow_reason":{
+                "context":"interest",
+                "interest":"Fun",
+                "show_bio":false,
+                "checked":false
+             },
+             "user":{
+                "id":12345,
+                "id_str":"12345",
+                "name":"joeschmo123",
+                "screen_name":"joeschmo",
+                "profile_image_url_https":"https://place.holder.com"
+             }
+          }
+       ]
+   }],
+   "follow_button_type":"follow",
+   "next_link_label_enabled_text":{
+       "text": "Follow 1",
+       "entities": [ { "from_index":7, "to_index":8,
+           "subtask_data_reference": {
+               "key":"completed_follow_count",
+               "subtask_id":"userRecoListID"
+           }
+       }]
+   },
+   "next_link_label_disabled_text":{
+       "text": "Follow 1 to continue",
+       "entities": [ { "from_index":7, "to_index":8,
+           "subtask_data_reference": {
+               "key":"completed_follow_count",
+               "subtask_id":"userRecoListID"
+           }
+       }]
+   },
+   "skip_link":{
+      "label":"Continue",
+      "link_id":"skip_link",
+      "link_type":"finish"
+   },
+   "next_link":{
+      "label":"Follow",
+      "link_id":"next_link",
+      "link_type":"finish"
+   },
+    "next_link_threshold_text":[
+                                {
+                                "threshold":0,
+                                "text":{
+                                "text":"Continue"
+                                }
+                                },
+                                {
+                                "threshold":1,
+                                "text":{
+                                "text":"Follow x user",
+                                "entities":[
+                                            {
+                                            "from_index":7,
+                                            "to_index":7,
+                                            "subtask_data_reference":{
+                                            "key":"completed_follow_count",
+                                            "subtask_id":"UserRecommendations"
+                                            }
+                                            }
+                                            ]
+                                }
+                                },
+                                {
+                                "threshold":2,
+                                "text":{
+                                "text":"Follow xxx users",
+                                "entities":[
+                                            {
+                                            "from_index":7,
+                                            "to_index":10,
+                                            "subtask_data_reference":{
+                                            "key":"completed_follow_count",
+                                            "subtask_id":"UserRecommendations"
+                                            }
+                                            }
+                                            ]
+                                }
+                                }
+                                ]
+
+}

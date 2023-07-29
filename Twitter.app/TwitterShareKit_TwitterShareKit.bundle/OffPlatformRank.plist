@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>base</key>
+	<array>
+		<string>InstagramStories</string>
+		<string>SnapChat</string>
+		<string>Messages</string>
+		<string>WhatsApp</string>
+		<string>LinkedIn</string>
+		<string>Line</string>
+		<string>FBMessenger</string>
+		<string>Telegram</string>
+		<string>Viber</string>
+		<string>Gmail</string>
+		<string>Mail</string>
+	</array>
+	<key>us</key>
+	<array>
+		<string>InstagramStories</string>
+		<string>SnapChat</string>
+		<string>Messages</string>
+		<string>LinkedIn</string>
+		<string>WhatsApp</string>
+		<string>Line</string>
+		<string>FBMessenger</string>
+		<string>Telegram</string>
+		<string>Viber</string>
+		<string>Gmail</string>
+		<string>Mail</string>
+	</array>
+</dict>
+</plist>

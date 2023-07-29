@@ -1,0 +1,40 @@
+{
+    "primary_text":{
+         "text":"We sent you a code.",
+         "entities":[]
+    },
+    "secondary_text":{
+     "text":"Enter it below to verify 555-1212",
+     "entities":[
+        {
+           "from_index":25,
+           "to_index":33,
+           "subtask_data_reference":{
+              "subtask_id":"signUpSubtaskID",
+              "key":"phone_number"
+           }
+        }
+     ]
+    },
+    "detail_text": {
+        "text": "Didn't receive code",
+        "entities": [ { "from_index":0, "to_index":19, "navigation_link": {
+                     "link_id":"embedded_link",
+                     "link_type":"subtask",
+                     "subtask_id":"resendCodePromptSubtaskID"
+                     }}]
+    },
+    "next_link": {
+        "link_id":"next_link",
+        "label": "next",
+        "link_type":"finish"
+    },
+    "fail_link": {
+        "link_id":"fail_link",
+        "link_type":"subtask",
+        "subtask_id":"signUpSubtaskID"
+    },
+    "phone_number": {
+        "string": "555-1212"
+    }
+}

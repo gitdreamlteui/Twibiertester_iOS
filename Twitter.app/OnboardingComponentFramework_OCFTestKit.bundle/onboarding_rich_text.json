@@ -1,0 +1,26 @@
+{
+    "text": "Check out our privacy policy for you. Get help.",
+    "style": "bold",
+    "size": "jumbo",
+    "styling_ranges": [
+        { "from_index":14, "to_index":28, "type": "unordered_list" },
+        { "from_index":14, "to_index":21, "type": "list_item" },
+        { "from_index":22, "to_index":28, "type": "list_item" }
+    ],
+    "entities": [ { "from_index":14, "to_index":28, "navigation_link": {
+                 "label":"Privacy policy",
+                 "link_id":"privacypolicy",
+                 "link_type":"chromeless_web_link",
+                 "url":"http://twitter.com/privacy/"
+                 }},
+                 { "from_index":33, "to_index":36, "subtask_data_reference": {
+                 "subtask_id":"test_subtask_id",
+                 "key":"phone"
+                 }},
+                 { "from_index":42, "to_index":46, "navigation_link": {
+                 "label":"Help",
+                 "link_id":"help",
+                 "link_type":"chromeless_web_link",
+                 "url":"http://twitter.com/help/"
+                 }}]
+}

@@ -1,0 +1,31 @@
+{
+   "primary_text":"Prompt title",
+   "secondary_text":"Prompt subtitle",
+   "detail_text":{
+      "text":"Prompt detail",
+      "entities":[
+         {
+            "from_index":4,
+            "to_index":10,
+            "navigation_link":{
+                  "link_id":"detail_link",
+                  "link_type":"subtask",
+                  "subtask_id":"6789"
+            }
+         }
+      ]
+   },
+   "granted_link":{
+      "label":"Accept",
+      "link_id":"granted_link",
+      "link_type":"subtask",
+      "subtask_id":"12345"
+   },
+   "denied_link":{
+      "label":"Decline",
+      "link_id":"denied_link",
+      "link_type":"deep_link",
+      "url":"twitter://deep_link"
+   },
+   "previously_denied_reprompt_behavior":"preprompt"
+}

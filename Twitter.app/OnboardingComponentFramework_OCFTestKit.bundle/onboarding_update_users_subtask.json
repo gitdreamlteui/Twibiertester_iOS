@@ -1,0 +1,24 @@
+{
+   "users":[
+      {
+        "id":12345,
+        "id_str":"12345",
+        "name":"joeschmo123",
+        "screen_name":"joeschmo",
+        "profile_image_url_https":"https://place.holder.com"
+      },
+      {
+        "id":54321,
+        "id_str":"54321",
+        "name":"Darth Vader",
+        "screen_name":"darthvader543",
+        "profile_image_url_https":"https://place.holder.com"
+      }
+   ],
+   "next_link":{
+      "label":"Done",
+      "link_id":"next_link",
+      "link_type":"finish"
+   }
+}
+

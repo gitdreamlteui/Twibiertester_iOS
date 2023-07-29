@@ -1,0 +1,29 @@
+{
+    "primary_text":{"text":"Update email"},
+    "secondary_text":{"text":"Enter the new email address that you would like associated with your Twitter account"},
+    "hint_text":"Email address",
+    "next_link":{
+     "label":"Next",
+     "link_id":"next_link",
+     "link_type":"subtask",
+     "subtask_id":"12345"
+    },
+    "skip_link":{
+      "label":"Not now",
+      "link_id":"skip_link",
+      "link_type":"deep_link",
+      "url":"twitter://deep_link"
+    },
+    "settings": [{
+      "primary_text":{"text":"Let others find me by my email"},
+      "value_identifier": "discoverable_by_email",
+      "value_type": "boolean",
+      "value_data": { "boolean_data": { "initial_value":"false" }}
+    }],
+    "discoverability_setting": {
+      "primary_text":{"text":"Let others find me by my email"},
+      "value_identifier": "discoverable_by_email",
+      "value_type": "boolean",
+      "value_data": { "boolean_data": { "initial_value":"false" }}
+    }
+}

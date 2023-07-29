@@ -1,0 +1,17 @@
+{
+    "provider": "google",
+    "state": "some_state_here",
+    "scopes": ["email", "profile", "name"],
+    "auth_url": "https://accounts.google.com/o/oauth2/v2",
+    "exchange_url": "https://oauth2.googleapis.com/token",
+    "next_link": {
+        "label":"Next",
+        "link_id": "next_link",
+        "link_type":"finish"
+    },
+    "fail_link": {
+        "label":"Fail",
+        "link_id": "fail_link",
+        "link_type":"abort"
+    }
+}

@@ -1,0 +1,32 @@
+{
+   "primary_text":"CTA title",
+   "secondary_text":"CTA subtitle",
+   "detail_text":{
+      "text":"CTA detail",
+      "entities":[
+         {
+            "from_index":4,
+            "to_index":10,
+            "navigation_link":{
+                  "link_id":"detail_link",
+                  "link_type":"subtask",
+                  "subtask_id":"6789"
+            }
+         }
+      ]
+   },
+   "primary_action_link":{
+      "label":"Primary",
+      "link_id":"primary_action_link",
+      "link_type":"subtask",
+      "subtask_id":"12345"
+   },
+   "secondary_action_link":{
+      "label":"Secondary",
+      "link_id":"secondary_action_link",
+      "link_type":"deep_link",
+      "url":"twitter://deep_link"
+   },
+   "primary_action_style":"destructive_secondary",
+   "secondary_action_style":"text"
+}

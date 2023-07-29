@@ -1,0 +1,50 @@
+{
+    "style":"centered",
+    "text_alignment":"left",
+    "primary_text": {
+       "text": "See what's happening in the world right now",
+       "size":"jumbo",
+       "style":"bold"
+    },
+    "detail_text": {
+        "text": "Have an account already? Log in",
+        "entities": [ { "from_index":25, "to_index":31, "navigation_link": {
+            "link_id":"embedded_sign_in_link",
+            "link_type":"finish"
+        }}]
+    },
+    "buttons": [
+        {
+            "navigation_link": {
+                "label":"Continue with Apple",
+                "link_id":"primary_action_link",
+                "link_type":"deep_link",
+                "url":"twitter://signup"
+            },
+            "style": "secondary"
+        },
+        {
+            "navigation_link": {
+                "label":"Continue with Google",
+                "link_id":"secondary_action_link",
+                "link_type":"deep_link",
+                "url":"twitter://login"
+            },
+            "style": "secondary",
+            "separator": {
+                "label": {
+                    "text":"Alert title text"
+                }
+            }
+       },
+        {
+            "navigation_link": {
+                "label":"Create account",
+                "link_id":"primary_action_link",
+                "link_type":"deep_link",
+                "url":"twitter://signup"
+            },
+            "style": "default"
+        }
+    ]
+}

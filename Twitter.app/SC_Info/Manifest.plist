@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SinfPaths</key>
+	<array>
+		<string>SC_Info/Twitter.sinf</string>
+	</array>
+	<key>SinfReplicationPaths</key>
+	<array>
+		<string>Frameworks/PeriscopeSDK.framework/SC_Info/PeriscopeSDK.sinf</string>
+		<string>Frameworks/T1Twitter.framework/SC_Info/T1Twitter.sinf</string>
+		<string>Frameworks/TFSFeatureSwitchesUI.framework/SC_Info/TFSFeatureSwitchesUI.sinf</string>
+		<string>Frameworks/TFSLocalizedResources.framework/SC_Info/TFSLocalizedResources.sinf</string>
+		<string>Frameworks/TwitterAppSPMMigration.framework/SC_Info/TwitterAppSPMMigration.sinf</string>
+		<string>Frameworks/TwitterDiagnosticTools.framework/SC_Info/TwitterDiagnosticTools.sinf</string>
+		<string>Frameworks/TwitterLifecycleTools.framework/SC_Info/TwitterLifecycleTools.sinf</string>
+		<string>Frameworks/TwitterNotifications.framework/SC_Info/TwitterNotifications.sinf</string>
+		<string>Frameworks/TwitterSPMMigration.framework/SC_Info/TwitterSPMMigration.sinf</string>
+		<string>Frameworks/TwitterSharedResources.framework/SC_Info/TwitterSharedResources.sinf</string>
+		<string>Frameworks/WebRTC.framework/SC_Info/WebRTC.sinf</string>
+		<string>PlugIns/ShareExtension.appex/SC_Info/ShareExtension.sinf</string>
+		<string>PlugIns/TwitterNotificationContentExtension.appex/SC_Info/TwitterNotificationContentExtension.sinf</string>
+		<string>PlugIns/TwitterNotificationServiceExtension.appex/SC_Info/TwitterNotificationServiceExtension.sinf</string>
+		<string>SC_Info/Twitter.sinf</string>
+	</array>
+</dict>
+</plist>

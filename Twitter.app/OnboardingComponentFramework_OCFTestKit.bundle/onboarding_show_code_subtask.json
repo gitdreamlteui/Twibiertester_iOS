@@ -1,0 +1,20 @@
+{
+    "header": {
+        "primary_text" : { "text": "Show code title", "entities": [] }
+    },
+    "style": "qr",
+    "code": "secret_code",
+    "detail_text": {
+        "text": "Show code detail text"
+    },
+    "next_link": {
+        "label":"Next",
+        "link_id": "next_link",
+        "link_type":"finish"
+    },
+    "skip_link": {
+        "label":"Skip",
+        "link_id": "skip_link",
+        "link_type":"finish"
+    }
+}
