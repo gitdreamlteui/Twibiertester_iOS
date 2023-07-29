@@ -5,4 +5,4 @@ Twibiertester iOS is a mod where you can find functions that are not yet release
 
 All the files are available here, and the compiled version is here as a .ipa file that you can install using AltStore or Sideloadly,
 
-If you have questions you can send a dm on https://x.com/biertester
+If you have questions you can send a dm on [X/Twitter](https://x.com/biertester)
